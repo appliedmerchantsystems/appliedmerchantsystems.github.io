@@ -1,0 +1,169 @@
+.form_footer
+{
+    margin-top: 30px;
+    padding-top: 30px;
+
+    border-top: 1px solid #e0e0e0;
+}
+
+.btn_submit
+{
+    line-height: 22px;
+
+    display: inline-block;
+
+    width: 100%;
+    min-width: 200px;
+    max-width: 330px;
+    min-height: 40px;
+    margin-top: 0;
+    margin-right: auto !important;
+    margin-left: 15px !important;
+
+    cursor: pointer;
+    transition-duration: .3s, .3s, .3s;
+    transition-property: background-color, color, box-shadow;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    border: none;
+    border-bottom-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: rgb(41, 150, 204);
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.form-group label
+{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+
+    display: block;
+
+    width: 100%;
+    margin-bottom: 5px;
+
+    color: #5f6a7d;
+}
+
+.form-group p
+{
+    font-size: 11px;
+    line-height: 17.6px;
+
+    color: rgb(95, 106, 125);
+}
+.form-group input
+{
+    height: 40px;
+}
+.form-group select
+{
+    height: 40px;
+}
+.btn_submit_span
+{
+    font-family: Helvetica, Arial;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 22px;
+
+    width: auto;
+    height: auto;
+
+    letter-spacing: 1px;
+    word-spacing: 0;
+}
+.container_padding
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.country_code
+{
+    line-height: normal;
+
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 30px 20px;
+}
+
+.banner
+{
+    position: relative;
+    z-index: 1;
+
+    display: block;
+    overflow: hidden;
+
+    min-height: 78px;
+
+    background-color: #1b2126;
+}
+
+.top_h4_text
+{
+    font-family: Helvetica, Arial;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+
+    word-spacing: 0;
+
+    color: #2e3b4e;
+}
+
+.top_grey_text
+{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+
+    word-spacing: 0;
+
+    color: #5f6a7d;
+}
+
+.three_check_blocks
+{
+    line-height: 22px;
+
+    margin: 0 149px 0 149px;
+    padding: 30px 0 30px 0;
+}
+
+.three_check_blocks h5
+{
+    display: inline;
+    /*    padding: 0 10px 0 10px;*/
+}
+
+.text-muted
+{
+    padding: 0 0 0 30px;
+}
+
+.center_block
+{
+    margin: 30px 0 0 30px;
+    padding-top: 30px;
+
+    border-top: 1px solid #e0e0e0;
+}
+
+.glyphicon
+{
+    padding-right: 10px;
+}
+
+.no-gutter > [class*='col-']
+{
+    padding-right: 0;
+    padding-left: 0;
+}
