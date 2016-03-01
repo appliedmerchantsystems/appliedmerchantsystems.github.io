@@ -23,7 +23,7 @@
   border: none;
   border-bottom-color: rgb(255, 255, 255);
   border-radius: 3px;
-  background-color: rgb(41, 150, 204);
+  background-color: #233c96;;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -69,6 +69,7 @@
   height: auto;
   letter-spacing: 1px;
   word-spacing: 0;
+
 }
 
 .container_padding {
