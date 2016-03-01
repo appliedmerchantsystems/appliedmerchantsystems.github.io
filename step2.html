@@ -40,51 +40,58 @@
         <fieldset>
           <form>
             <div class="form-group col-md-6">
-              <label for="business_type">What type of business is it?</label>
-              <select class="text-right form-control business_type">
-                <option selected="selected" value="us">LLC</option>
+              <input type="text" class="form-control" id="company_name" placeholder="Company Name (DBA)*">
+              <label class ="company_name_label" for="company_name">If Sole Proprietorship, please enter owener's full name.</label>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" id="business_name" placeholder="Legal Business Name">
+              <label for="business_name">&nbsp;</label>
+            </div>
+            <div class="form-group col-md-6">
+              <label class="sr-only" for="busienss_address">Business Street Address</label>
+              <input type="text" class="form-control" id="business_address" placeholder="Business Street Address">
+            </div>
+            <div class="form-group col-md-6">
+              <label class="sr-only" for="business_city">Business City</label>
+              <input type="text" class="form-control" id="business_city" placeholder="Business City">
+            </div>
+            <div class="form-group col-md-6">
+              <label class="sr-only" for="business_state"></label>
+              <select class="text-right form-control business_state">
+                <option value="us">State</option>
               </select>
             </div>
             <div class="form-group col-md-6">
-              <label for="business_category">Business Category</label>
-              <select class="text-right form-control business_category">
-                <option value="us">-</option>
+              <label class="sr-only" for="business_zipcode">Business Zip Code*</label>
+              <input type="text" class="form-control" id="business_zipcode" placeholder="Business Zip Code*">
+            </div>
+            <div class="form-group col-md-6">
+              <label class="sr-only" for="business_country">Business Country</label>
+              <select class="text-right form-control business_country">
+                <option value="us">Business Country</option>
               </select>
             </div>
             <div class="form-group col-md-6">
-              <label for="business_name">What is your Business Name</label>
-              <input type="text" class="form-control" id="business_name" placeholder="Business Name">
+              <label class="sr-only" for="business_website">Business Website</label>
+              <input type="text" class="form-control" id="business_website" placeholder="Business Website">
             </div>
             <div class="form-group col-md-6">
-              <label for="eid">Employer Identification Number (optional)</label>
-              <input type="text" class="form-control" id="eid" placeholder="00-0000000">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="exampleInputPassword1">Estimated annual revenue</label>
-              <select class="text-right form-control business_revenue">
-                <option value="us">0-$10,000</option>
+              <label  for="business_structure">&nbsp;</label>
+              <select class="text-right form-control business_structure">
+                <option value="us">Business Structure</option>
               </select>
             </div>
             <div class="form-group col-md-6">
-              <label for="country">Account Type</label>
-              <select class="text-right form-control business_type">
-                <option value="us">How do you plan to use your Account?</option>
-              </select>
-
+              <label for="business_taxid">If Sole Proprietorship, please enter owener's full name.</label>
+              <input type="text" class="form-control" id="business_taxid" placeholder="Federal Tax ID">
             </div>
             <!-- Footer and Button -->
             <div class="row"></div>
-            <div class="form_footer form-group ">
-              <div class="col-md-6">
-                <p>
-                  By continuing, I agree to Applied Merchant's Seller Agreement and E-Sign Consent. Already have a account? Sign in.
-                </p>
-              </div>
-              <div class="btn-group btn_submit_div col-md-6">
+            <div class="col-md-12 text-center form_footer">
                 <button class="btn_submit btn btn-primary">
                   <span class="btn_submit_span">Continue</span>
                 </button>
-              </div>
+            </div>
           </form>
         </fieldset>
         </div>
