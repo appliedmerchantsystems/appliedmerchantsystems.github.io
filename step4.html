@@ -38,63 +38,70 @@
     <div class="row three_check_blocks">
       <div class="row">
         <fieldset>
-          <form action="step3.html">
+          <form action="index.html">
             <div class="form-group col-md-6">
-              <input type="text" class="form-control" id="company_name" placeholder="Company Name (DBA)*">
-              <label class ="company_name_label" for="company_name">If Sole Proprietorship, please enter owener's full name.</label>
+              <label class ="sr-only" for="first_name">First Name</label>
+              <input type="text" class="form-control" id="first_name" placeholder="First Name">
             </div>
             <div class="form-group col-md-6">
-              <input type="text" class="form-control" id="business_name" placeholder="Legal Business Name">
-              <label for="business_name">&nbsp;</label>
+              <label class ="sr-only" for="last_name">Last Name</label>
+              <input type="text" class="form-control" id="last_name" placeholder="Last Name">
             </div>
             <div class="form-group col-md-6">
-              <label class="sr-only" for="busienss_address">Business Street Address</label>
-              <input type="text" class="form-control" id="business_address" placeholder="Business Street Address">
+              <label class ="sr-only" for="home_address">Home Street Address (No P.O. Boxes)</label>
+              <input type="text" class="form-control" id="home_address" placeholder="Home Street Address (No P.O. Boxes)">
             </div>
             <div class="form-group col-md-6">
-              <label class="sr-only" for="business_city">Business City</label>
-              <input type="text" class="form-control" id="business_city" placeholder="Business City">
+              <label class ="sr-only" for="city">City</label>
+              <input type="text" class="form-control" id="city" placeholder="City">
             </div>
             <div class="form-group col-md-6">
-              <label class="sr-only" for="business_state"></label>
-              <select class="text-right form-control business_state">
+              <label class="sr-only" for="state"></label>
+              <select class="text-right form-control state">
                 <option value="us">State</option>
               </select>
             </div>
             <div class="form-group col-md-6">
-              <label class="sr-only" for="business_zipcode">Business Zip Code*</label>
-              <input type="text" class="form-control" id="business_zipcode" placeholder="Business Zip Code*">
+              <label class ="sr-only" for="zipcode">Zipcode</label>
+              <input type="text" class="form-control" id="zipcode" placeholder="Zipcode">
             </div>
             <div class="form-group col-md-6">
-              <label class="sr-only" for="business_country">Business Country</label>
-              <select class="text-right form-control business_country">
-                <option value="us">Business Country</option>
+              <label class="sr-only" for="country"></label>
+              <select class="text-right form-control country">
+                <option value="us">Country</option>
               </select>
             </div>
             <div class="form-group col-md-6">
-              <label class="sr-only" for="business_website">Business Website</label>
-              <input type="text" class="form-control" id="business_website" placeholder="Business Website">
+              <label class ="sr-only" for="number">Home / Mobile Number</label>
+              <input type="text" class="form-control" id="number" placeholder="Home / Mobile Number">
             </div>
             <div class="form-group col-md-6">
-              <label  for="business_structure">&nbsp;</label>
-              <select class="text-right form-control business_structure">
-                <option value="bs">Business Structure</option>
-                <option value="sp">Sole Proprietorship</option>
-                <option value="corp">Corporation</option>
-                <option value="llc">LLC</option>
-                <option value="partnership">Partnership</option>
-                <option value="np">Non-Profit</option>
+              <label class ="sr-only" for="dob">Date of Birth</label>
+              <input type="text" class="form-control" id="dob" placeholder="Date of Birth">
+            </div>
+            <div class="form-group col-md-6">
+              <label class ="sr-only" for="dob">Social Security Number</label>
+              <input type="text" class="form-control" id="dob" placeholder="Social Security Number">
+            </div>
+            <div class="form-group col-md-6">
+              <label class ="sr-only" for="dob">Driver's License Number</label>
+              <input type="text" class="form-control" id="dob" placeholder="Driver's License Number">
+            </div>
+            <div class="form-group col-md-6">
+              <label class="sr-only" for="ownership_percentage"></label>
+              <select class="text-right form-control ownership_percentage">
+                <option value="us">Ownership Percentage</option>
               </select>
             </div>
             <div class="form-group col-md-6">
-              <label for="business_taxid">If Sole Proprietorship, please enter owener's full name.</label>
-              <input type="text" class="form-control" id="business_taxid" placeholder="Federal Tax ID">
+              <label class ="sr-only" for="dob">Title</label>
+              <input type="text" class="form-control" id="dob" placeholder="Title">
             </div>
             <!-- Footer and Button -->
             <div class="row"></div>
             <div class="col-md-12 text-center form_footer">
                 <button class="btn_submit btn btn-primary">
-                  <span class="btn_submit_span">Continue</span>
+                  <span class="btn_submit_span">Continue</span></a>
                 </button>
             </div>
           </form>
